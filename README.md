@@ -45,9 +45,7 @@ pip install -r requirements.txt
 ### 🚀 4. Run the FastAPI App
 
 ```bash
-
-uvicorn app.main:app --reload
-
+uvicorn main:app --reload
 ```
 
 Then open your browser:  
@@ -70,6 +68,12 @@ docker run -d -p 8000:8000 order-backend-app
 ```
 
 Access API at [http://localhost:8000/docs](http://localhost:8000/docs)
+
+initially the link will be "http://localhost:8000" 
+
+ADD /docs 
+then it will redirect to swagger UI to test the FAST api ,, click on any requests POS, GET ,PUT 
+then click on Try on ,, change the string value and execute
 
 ---
 
@@ -140,10 +144,10 @@ curl http://localhost:8000/orders/1
 
 You can push your Docker image to:
 - AWS EC2 (via Docker)
-- AWS ECS / Fargate
+- AWS Lightsail
 - Render / Railway / Fly.io
 
-> Contact me or see deployment instructions in `DEPLOY.md` (if added)
+> Contact me 
 
 ---
 
