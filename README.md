@@ -144,8 +144,9 @@ curl http://localhost:8000/orders/1
 
 You can push your Docker image to:
 - AWS EC2 (via Docker)
+AS I HAVE SUCCESFULLY DEPLOYED IN EC2
 - AWS Lightsail
-- Render / Railway / Fly.io
+
 
 > Contact me 
 
